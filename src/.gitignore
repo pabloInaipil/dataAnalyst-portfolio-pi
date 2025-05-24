@@ -1,0 +1,19 @@
+# dependencias
+node_modules/
+
+# salidas de construcción
+dist/
+.astro/
+
+# IDE / sistema
+.vscode/
+.DS_Store
+Thumbs.db
+
+# variables de entorno
+.env
+.env.*
+
+# logs
+npm-debug.log*
+pnpm-lock.yaml

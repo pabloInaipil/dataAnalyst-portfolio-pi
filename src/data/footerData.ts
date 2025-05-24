@@ -18,5 +18,5 @@ export const footerData = {
     }
   ],
   quote: 'No te rindas Pablo!, mayo 2025"',
-  githubCodeLink: ''
+  githubCodeLink: 'https://github.com/pabloInaipil/dataAnalyst-portfolio-pi.git'
 };
