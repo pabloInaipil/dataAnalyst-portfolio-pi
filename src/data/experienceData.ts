@@ -7,29 +7,25 @@ export type Job = {
 
 export const jobs: Job[] = [
   {
-    title: "Data Analyst",
-    company: "Tech Solutions Inc.",
-    dates: "01/2019 - 12/2022",
+    title: "Analista de Datos Financiero",
+    company: "SERNAMEG.",
+    dates: "28/2024 - 29/2025",
     description: [
-      "Developed interactive Power BI dashboards to analyze business performance and customer trends.",
-      "Automated ETL processes using Python and SQL to improve data processing efficiency by 40%.",
-      "Collaborated with stakeholders to identify key performance metrics and optimize reporting strategies.",
-      "Designed predictive models to forecast revenue and customer churn, providing actionable insights.",
-      "Managed data extraction from multiple sources, including APIs, databases, and cloud storage.",
-      "Presented analytical findings to executive teams, leading to data-driven decision-making."
+      "Desarrollo de dashboard en Power Bi para el seguimiento de las Cuentas por cobrar ejecutores externos.",
+      "Desarrollo de informe de avance de ejecución semanal y reportería mediante Looker Studio sobre el estado de ejecucción presupuestaria año 2024",
+      "Automatización de tareas mensuales de consolidación de actualización de reporte CxC años anteriores",
+      "Centralizacion de documentación mediante generador de carpetas masivas en Google Sheets utilizando un script de programación.(AppScript)",
     ]
   },
   {
-    title: "Software Engineer",
-    company: "Innovatech Solutions",
-    dates: "03/2023 - Present",
+    title: "Analista de Datos RR.HH.",
+    company: "Asesorias AGR SpA",
+    dates: "03/2022 - 04/2024",
     description: [
-      "Developed full-stack web applications using React, Node.js, and MongoDB.",
-      "Implemented RESTful APIs and integrated third-party services for enhanced application functionality.",
-      "Optimized SQL queries and database schemas to improve system performance.",
-      "Led a team of junior developers, mentoring them on best practices in software engineering.",
-      "Designed and implemented CI/CD pipelines, reducing deployment time by 50%.",
-      "Collaborated with UX/UI designers to enhance the user experience of web applications."
+      "Creación de dashboards interactivos en Power BI, analizando métricas clave como índice de permanencia y FTE.",
+      "Optimización de la gestión documental mediante plantillas HTML y procesos de firma digital.",
+      "Automatización de cálculos de remuneraciones en Google Sheets, mejorando la eficiencia operativa.",
+      "Implementación de automatizaciones en Talana, reduciendo costos en procesos de finiquitos hasta en un 30%.",
     ]
   }
 ];

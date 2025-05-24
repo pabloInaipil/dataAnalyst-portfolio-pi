@@ -128,17 +128,17 @@ const ProjectCard = ({ project }: { project: Project }) => {
           >
             <div className="rounded-lg bg-muted/50 p-4 space-y-4">
               <div>
-                <h4 className="font-semibold mb-2">Challenge</h4>
+                <h4 className="font-semibold mb-2">Desafios</h4>
                 <p className="text-muted-foreground">{project.details.challenge}</p>
               </div>
               
               <div>
-                <h4 className="font-semibold mb-2">Solution</h4>
+                <h4 className="font-semibold mb-2">Soluciones</h4>
                 <p className="text-muted-foreground">{project.details.solution}</p>
               </div>
               
               <div>
-                <h4 className="font-semibold mb-2">Impact</h4>
+                <h4 className="font-semibold mb-2">Impacto</h4>
                 <ul className="list-disc list-inside space-y-1 text-muted-foreground">
                   {project.details.impact.map((item, index) => (
                     <li key={index}>{item}</li>
@@ -162,11 +162,11 @@ const ProjectCard = ({ project }: { project: Project }) => {
           >
             {isExpanded ? (
               <>
-                <ChevronUp className="mr-2 h-4 w-4" /> Show Less
+                <ChevronUp className="mr-2 h-4 w-4" /> Ver menos
               </>
             ) : (
               <>
-                <ChevronDown className="mr-2 h-4 w-4" /> See More
+                <ChevronDown className="mr-2 h-4 w-4" /> Ver más
               </>
             )}
           </Button>
@@ -181,7 +181,7 @@ const PortfolioFeed = () => {
     <section className="relative z-10 min-h-screen bg-background/95 px-4 py-24 backdrop-blur-sm">
       <div className="mx-auto max-w-3xl">
         <h2 className="mb-12 text-center text-4xl font-bold tracking-tight">
-          Side Projects
+          Proyectos
         </h2>
         
         <div className="space-y-8">
