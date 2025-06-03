@@ -18,7 +18,7 @@ export const projects: Project[] = [
   {
     id: 1,
     title: "Dashboard seguimiento Rendiciones SISREC 2024 y Cuentas por Cobrar Sernameg 2025",
-    summary: "Dashboard Power BI para el seguimiento de ejecución presupeustaria de programas Sernameg 2024 y para Cuentas por cobrar años anteriores.",
+    summary: "Dashboard Power BI para el seguimiento de ejecución presupuestaria de programas Sernameg 2024 y para Cuentas por cobrar años anteriores.",
     images: [
       "/images/sisrec-2024.jpg",
       "/images/piechart-sisrec.jpg",
