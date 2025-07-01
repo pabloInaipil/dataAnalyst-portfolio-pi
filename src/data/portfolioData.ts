@@ -81,5 +81,25 @@ export const projects: Project[] = [
         "Mejora de la rentabilidad: con un seguimiento continuo de márgenes y costos ocultos, el emprendedor puede ajustar precios y condiciones de venta para maximizar ganancias y flujo de caja."
       ]
     }   
+  },
+  { id: 4,
+  title: "Modelo de Inteligencia de Compras Públicas ChileCompra 2024",
+    summary: "Dashboard interactivo que analiza el comportamiento de las compras públicas realizadas por organismos del Estado de Chile durante el año 2024. Este informe permite visualizar el gasto total, identificar a los principales compradores, proveedores y rubros, y segmentar por región, sector y período, facilitando una toma de decisiones transparente, estratégica y basada en datos ",
+    images: [
+      "/images/chilecompra-2024-1.jpg",
+      "/images/chilecompra-2024-2.jpg",
+      "/images/chilecompra-2024-3.jpg"
+    ],
+    tags: ["Power BI", "Power Query", "Data Visualization", "Excel", "Business Intelligence"],
+    details: {
+      challenge: "Uno de los principales desafíos fue ordenar y sistematizar un alto volumen de datos públicos de compras, dispersos en múltiples columnas y sin una estructura analítica clara. El objetivo era crear un sistema de inteligencia que permitiera, en tiempo real, identificar los principales compradores del Estado, su comportamiento mensual, y los rubros más contratados, todo segmentable por región y sector público. También se requería comunicar los hallazgos de forma visual y comprensible, tanto para usuarios expertos como para ciudadanos sin conocimientos técnicos",
+      solution: "Dashboard interactivo que permite visualizar y analizar las compras realizadas por organismos del Estado durante 2024, mediante indicadores clave, rankings y filtros por sector, región y rubro. Su enfoque facilita decisiones basadas en datos, promueve la transparencia y ofrece múltiples usos: empresas proveedoras pueden detectar competidores y planificar estratégicamente; emprendedores identificar oportunidades de negocio; periodistas y ciudadanos acceder a información trazable del gasto fiscal; y organismos públicos monitorear ejecución, concentraciones de gasto y planificar con evidencia.",
+      impact: [
+        "Se obtuvo una visión clara del comportamiento de compra del Estado durante el año 2024.",
+        "Se pueden detectar concentraciones de gasto por sector y organismo, lo que permite evaluar eficiencia o posibles alertas.",
+        "La información se volvió accesible y reutilizable para distintos perfiles: desde periodistas hasta analistas de compras públicas.",
+        "Se facilitó el cumplimiento de estándares de transparencia y accountability, promoviendo el control ciudadano y la toma de decisiones basada en datos."
+      ]
+    }   
   }
 ];
