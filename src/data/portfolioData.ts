@@ -20,17 +20,18 @@ export const projects: Project[] = [
     title: "Dashboard seguimiento Rendiciones SISREC 2024 y Cuentas por Cobrar Sernameg 2025",
     summary: "Dashboard Power BI para el seguimiento de ejecución presupuestaria de programas Sernameg 2024 y para Cuentas por cobrar años anteriores.",
     images: [
-      "/images/sisrec-2024.jpg",
-      "/images/piechart-sisrec.jpg",
       "/images/cxc.jpg",
-      "/images/treemap-cxc.jpg"
+      "/images/piechart-sisrec.jpg",
+      "/images/sisrec-2024.jpg",
+      "/images/treemap-cxc.jpg",
+      "/images/model-sernameg.jpg"
     ],
     tags: ["Power BI", "Power Query", "Data Visualization", "Excel", "Business Intelligence"],
     details: {
       challenge: "Uno de los principales desafios era lograr en un tiempo acotado la rebaja de la deuda por cobrar de años anteriores, priorizando el año 2023. Aquello implicaba realizar una reorganización de la documentación disponible y creando un maestro de datos para indentificar existencias de rendiciones y documentación faltante.",
       solution: "Luego de organizar la información en carpetas por año, programa y ejecutor, se registran actualizaciones en un maestro de datos, se ajustaron los documentos formales en Excel para facilitar el registro de rendiciones contables. Estos ajustes consistieron en resumir la rendición financiera en una hoja de Google Sheets con totales, saldos y porcentajes, conectada a una plantilla en Word en la nube. Esto permitió generar automáticamente oficios para su rápida carga en el sistema Cero Papel y envío al ejecutor correspondiente, paralelamente a esto se realizaba la contabilización correspondiente para rebajar la deuda. Por otro lado se crearon informes automatizados en Looker Studio cargando maestros de datos bajados directamente desde el sistema de rendiciones SISREC para ir monitoreando los viernes de cada semana el estado de avance de las rendiciones entre otros indicadores. Se implemento tambien este monitoreo en Power BI junto con el estado de las rendiciones de años anteriores, dasboard que se puede apreciar en las imagenes.",
       impact: [
-        "En aproximadamente 2 meses se logro una rebaja de la deuda en un 90% solo en el 2023 y en un 20% el 2022. Logrando así un avance de un 22% de disminucion total de la deuda en lo que respecta a las metas institucionales",
+        "En aproximadamente 3 meses se logro una rebaja de la deuda en un 90% solo en el 2023 y en un 20% el 2022. Logrando así un avance de un 22% de disminucion total de la deuda en lo que respecta a las metas institucionales",
         "Insights valiosos relacionados con el grado de avance de las rendiciones, la adopción de Google Sheets como plataforma de monitoreo de flujos de rendiciones optimizadas y desatomizadas, conectadas a la vez con reportes financieros de cuentas por cobrar de SIGFE y de rendiciones SISREC la cual permitió la automatización de analisis de cada funcionario permitiendo un ahorro de HH en la gestión mensual de esta actividad la cual debía ser enviada al nivel central del servicio. Uso de la Inteligencia Artificial para la realización de presentaciones más dinamicas y actas automatizadas de reuniones del servicio, "
       ]
     }

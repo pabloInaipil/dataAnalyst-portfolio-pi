@@ -1,18 +1,19 @@
 export const heroData = {
   name: 'Pablo Inaipil Moreno',
   title: 'Microsoft Certified Power BI Data Analyst Associate',
-  description: 'Impulsa tus resultados con decisiones basadas en datos..',
+  description: 'Convirtiendo datos en decisiones estratégicas',
   profilePicture: '/images/pablo2024.jpg',
   skills: [
     'Power BI',
+    'Excel',
     'DAX',
     'Power Query',
     'Python',
     'SQL',
-    'R',
     'ETL',
     'Data Modeling',
-    'API Development',
+    'Data Visualization',
+    'Business Intelligence',
     'IA',
   ],
   contact: {
